@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+        font-family: "Underdog", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        background-color: darkslategray;
+      
+}
+.title{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+   
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+
+
+}
+.container div{
+    width: 200px;
+    color:white;
+    margin: 10px;
+    flex-direction: row;
+}
